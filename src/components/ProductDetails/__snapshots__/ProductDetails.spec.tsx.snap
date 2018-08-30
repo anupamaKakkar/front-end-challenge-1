@@ -1,0 +1,1998 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetails  should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductDetails />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="leftWrapper"
+        >
+          <img
+            height="500"
+            src={
+              Array [
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1b12cc01/images/hi-res/169600113/169600113_01_Front.jpg?sw=600&sh=600",
+              ]
+            }
+            width="300"
+          />
+        </div>,
+        <div
+          className="rightWrapper"
+        >
+          <label
+            className="pTitle"
+          >
+            LEVI'S® BATWING LOGO TEE
+          </label>
+          <hr
+            className="divider"
+          />
+          <div
+            className="pId"
+          >
+            <span
+              className="spanTitle"
+            >
+              ID: 
+            </span>
+            <span
+              className="spanSubtitle"
+            >
+              3302
+               
+            </span>
+          </div>
+          <div
+            className="pSex"
+          >
+            <span
+              className="spanTitle"
+            >
+              Sex: 
+            </span>
+            <span
+              className="spanSubtitle"
+            >
+              Men
+               
+            </span>
+          </div>
+          <div
+            className="pBrand"
+          >
+            <span
+              className="spanTitle"
+            >
+              Brand: 
+            </span>
+            <span
+              className="spanSubtitle"
+            >
+              Levis
+            </span>
+          </div>
+          <div
+            className="pSize"
+          >
+            <span
+              className="spanTitle"
+            >
+              Size: 
+            </span>
+            <span
+              className="spanSubtitle"
+            >
+              <select
+                onChange={[Function]}
+                value="L"
+              >
+                <option
+                  value="L"
+                >
+                  L
+                </option>
+                <option
+                  value="M"
+                >
+                  M
+                </option>
+                <option
+                  value="S"
+                >
+                  S
+                </option>
+                <option
+                  value="XL"
+                >
+                  XL
+                </option>
+              </select>
+            </span>
+          </div>
+          <div
+            className="pSource"
+          >
+            <span
+              className="spanTitle"
+            >
+              Source: 
+            </span>
+            <select
+              onChange={[Function]}
+            >
+              <option>
+                ---Select Source---
+              </option>
+              <option
+                value="Suvidha Karnal"
+              >
+                Suvidha Karnal
+              </option>
+              <option
+                value="Suvidha Panipat"
+              >
+                Suvidha Panipat
+              </option>
+              <option
+                value="Suvidha Yamuna Nagar"
+              >
+                Suvidha Yamuna Nagar
+              </option>
+            </select>
+          </div>
+          <div
+            className="pPrice"
+          >
+            <span
+              className="spanTitle"
+            >
+              Price: 
+            </span>
+            <span
+              className="spanSubtitle"
+            >
+              999
+            </span>
+          </div>
+          <hr
+            className="divider"
+          />
+          <div>
+            <button
+              className="addToCart"
+              onClick={[Function]}
+            >
+               Add to Cart
+            </button>
+            <Route
+              render={[Function]}
+            />
+          </div>
+        </div>,
+      ],
+      "className": "mainContainer",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+            <img
+              height="500"
+              src={
+                Array [
+                  "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1b12cc01/images/hi-res/169600113/169600113_01_Front.jpg?sw=600&sh=600",
+                ]
+              }
+              width="300"
+            />,
+          ],
+          "className": "leftWrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "height": "500",
+              "src": Array [
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1b12cc01/images/hi-res/169600113/169600113_01_Front.jpg?sw=600&sh=600",
+              ],
+              "width": "300",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label
+              className="pTitle"
+            >
+              LEVI'S® BATWING LOGO TEE
+            </label>,
+            <hr
+              className="divider"
+            />,
+            <div
+              className="pId"
+            >
+              <span
+                className="spanTitle"
+              >
+                ID: 
+              </span>
+              <span
+                className="spanSubtitle"
+              >
+                3302
+                 
+              </span>
+            </div>,
+            <div
+              className="pSex"
+            >
+              <span
+                className="spanTitle"
+              >
+                Sex: 
+              </span>
+              <span
+                className="spanSubtitle"
+              >
+                Men
+                 
+              </span>
+            </div>,
+            <div
+              className="pBrand"
+            >
+              <span
+                className="spanTitle"
+              >
+                Brand: 
+              </span>
+              <span
+                className="spanSubtitle"
+              >
+                Levis
+              </span>
+            </div>,
+            <div
+              className="pSize"
+            >
+              <span
+                className="spanTitle"
+              >
+                Size: 
+              </span>
+              <span
+                className="spanSubtitle"
+              >
+                <select
+                  onChange={[Function]}
+                  value="L"
+                >
+                  <option
+                    value="L"
+                  >
+                    L
+                  </option>
+                  <option
+                    value="M"
+                  >
+                    M
+                  </option>
+                  <option
+                    value="S"
+                  >
+                    S
+                  </option>
+                  <option
+                    value="XL"
+                  >
+                    XL
+                  </option>
+                </select>
+              </span>
+            </div>,
+            <div
+              className="pSource"
+            >
+              <span
+                className="spanTitle"
+              >
+                Source: 
+              </span>
+              <select
+                onChange={[Function]}
+              >
+                <option>
+                  ---Select Source---
+                </option>
+                <option
+                  value="Suvidha Karnal"
+                >
+                  Suvidha Karnal
+                </option>
+                <option
+                  value="Suvidha Panipat"
+                >
+                  Suvidha Panipat
+                </option>
+                <option
+                  value="Suvidha Yamuna Nagar"
+                >
+                  Suvidha Yamuna Nagar
+                </option>
+              </select>
+            </div>,
+            <div
+              className="pPrice"
+            >
+              <span
+                className="spanTitle"
+              >
+                Price: 
+              </span>
+              <span
+                className="spanSubtitle"
+              >
+                999
+              </span>
+            </div>,
+            <hr
+              className="divider"
+            />,
+            <div>
+              <button
+                className="addToCart"
+                onClick={[Function]}
+              >
+                 Add to Cart
+              </button>
+              <Route
+                render={[Function]}
+              />
+            </div>,
+          ],
+          "className": "rightWrapper",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "LEVI'S® BATWING LOGO TEE",
+              "className": "pTitle",
+            },
+            "ref": null,
+            "rendered": "LEVI'S® BATWING LOGO TEE",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "divider",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "hr",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="spanTitle"
+                >
+                  ID: 
+                </span>,
+                <span
+                  className="spanSubtitle"
+                >
+                  3302
+                   
+                </span>,
+              ],
+              "className": "pId",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ID: ",
+                  "className": "spanTitle",
+                },
+                "ref": null,
+                "rendered": "ID: ",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "3302",
+                    " ",
+                  ],
+                  "className": "spanSubtitle",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "3302",
+                  " ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="spanTitle"
+                >
+                  Sex: 
+                </span>,
+                <span
+                  className="spanSubtitle"
+                >
+                  Men
+                   
+                </span>,
+              ],
+              "className": "pSex",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sex: ",
+                  "className": "spanTitle",
+                },
+                "ref": null,
+                "rendered": "Sex: ",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Men",
+                    " ",
+                  ],
+                  "className": "spanSubtitle",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Men",
+                  " ",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="spanTitle"
+                >
+                  Brand: 
+                </span>,
+                <span
+                  className="spanSubtitle"
+                >
+                  Levis
+                </span>,
+              ],
+              "className": "pBrand",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Brand: ",
+                  "className": "spanTitle",
+                },
+                "ref": null,
+                "rendered": "Brand: ",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Levis",
+                  "className": "spanSubtitle",
+                },
+                "ref": null,
+                "rendered": "Levis",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="spanTitle"
+                >
+                  Size: 
+                </span>,
+                <span
+                  className="spanSubtitle"
+                >
+                  <select
+                    onChange={[Function]}
+                    value="L"
+                  >
+                    <option
+                      value="L"
+                    >
+                      L
+                    </option>
+                    <option
+                      value="M"
+                    >
+                      M
+                    </option>
+                    <option
+                      value="S"
+                    >
+                      S
+                    </option>
+                    <option
+                      value="XL"
+                    >
+                      XL
+                    </option>
+                  </select>
+                </span>,
+              ],
+              "className": "pSize",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Size: ",
+                  "className": "spanTitle",
+                },
+                "ref": null,
+                "rendered": "Size: ",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <select
+                    onChange={[Function]}
+                    value="L"
+                  >
+                    <option
+                      value="L"
+                    >
+                      L
+                    </option>
+                    <option
+                      value="M"
+                    >
+                      M
+                    </option>
+                    <option
+                      value="S"
+                    >
+                      S
+                    </option>
+                    <option
+                      value="XL"
+                    >
+                      XL
+                    </option>
+                  </select>,
+                  "className": "spanSubtitle",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <option
+                        value="L"
+                      >
+                        L
+                      </option>,
+                      <option
+                        value="M"
+                      >
+                        M
+                      </option>,
+                      <option
+                        value="S"
+                      >
+                        S
+                      </option>,
+                      <option
+                        value="XL"
+                      >
+                        XL
+                      </option>,
+                    ],
+                    "onChange": [Function],
+                    "value": "L",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "L",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "L",
+                        "value": "L",
+                      },
+                      "ref": null,
+                      "rendered": "L",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "M",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "M",
+                        "value": "M",
+                      },
+                      "ref": null,
+                      "rendered": "M",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "S",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "S",
+                        "value": "S",
+                      },
+                      "ref": null,
+                      "rendered": "S",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "XL",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "XL",
+                        "value": "XL",
+                      },
+                      "ref": null,
+                      "rendered": "XL",
+                      "type": "option",
+                    },
+                  ],
+                  "type": "select",
+                },
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="spanTitle"
+                >
+                  Source: 
+                </span>,
+                <select
+                  onChange={[Function]}
+                >
+                  <option>
+                    ---Select Source---
+                  </option>
+                  <option
+                    value="Suvidha Karnal"
+                  >
+                    Suvidha Karnal
+                  </option>
+                  <option
+                    value="Suvidha Panipat"
+                  >
+                    Suvidha Panipat
+                  </option>
+                  <option
+                    value="Suvidha Yamuna Nagar"
+                  >
+                    Suvidha Yamuna Nagar
+                  </option>
+                </select>,
+              ],
+              "className": "pSource",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Source: ",
+                  "className": "spanTitle",
+                },
+                "ref": null,
+                "rendered": "Source: ",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option>
+                      ---Select Source---
+                    </option>,
+                    Array [
+                      <option
+                        value="Suvidha Karnal"
+                      >
+                        Suvidha Karnal
+                      </option>,
+                      <option
+                        value="Suvidha Panipat"
+                      >
+                        Suvidha Panipat
+                      </option>,
+                      <option
+                        value="Suvidha Yamuna Nagar"
+                      >
+                        Suvidha Yamuna Nagar
+                      </option>,
+                    ],
+                  ],
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "---Select Source---",
+                    },
+                    "ref": null,
+                    "rendered": "---Select Source---",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "Suvidha Karnal",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Suvidha Karnal",
+                      "value": "Suvidha Karnal",
+                    },
+                    "ref": null,
+                    "rendered": "Suvidha Karnal",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "Suvidha Panipat",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Suvidha Panipat",
+                      "value": "Suvidha Panipat",
+                    },
+                    "ref": null,
+                    "rendered": "Suvidha Panipat",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "Suvidha Yamuna Nagar",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Suvidha Yamuna Nagar",
+                      "value": "Suvidha Yamuna Nagar",
+                    },
+                    "ref": null,
+                    "rendered": "Suvidha Yamuna Nagar",
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="spanTitle"
+                >
+                  Price: 
+                </span>,
+                <span
+                  className="spanSubtitle"
+                >
+                  999
+                </span>,
+              ],
+              "className": "pPrice",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Price: ",
+                  "className": "spanTitle",
+                },
+                "ref": null,
+                "rendered": "Price: ",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "999",
+                  "className": "spanSubtitle",
+                },
+                "ref": null,
+                "rendered": "999",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "divider",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "hr",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="addToCart"
+                  onClick={[Function]}
+                >
+                   Add to Cart
+                </button>,
+                <Route
+                  render={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " Add to Cart",
+                  "className": "addToCart",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": " Add to Cart",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "render": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="leftWrapper"
+          >
+            <img
+              height="500"
+              src={
+                Array [
+                  "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1b12cc01/images/hi-res/169600113/169600113_01_Front.jpg?sw=600&sh=600",
+                ]
+              }
+              width="300"
+            />
+          </div>,
+          <div
+            className="rightWrapper"
+          >
+            <label
+              className="pTitle"
+            >
+              LEVI'S® BATWING LOGO TEE
+            </label>
+            <hr
+              className="divider"
+            />
+            <div
+              className="pId"
+            >
+              <span
+                className="spanTitle"
+              >
+                ID: 
+              </span>
+              <span
+                className="spanSubtitle"
+              >
+                3302
+                 
+              </span>
+            </div>
+            <div
+              className="pSex"
+            >
+              <span
+                className="spanTitle"
+              >
+                Sex: 
+              </span>
+              <span
+                className="spanSubtitle"
+              >
+                Men
+                 
+              </span>
+            </div>
+            <div
+              className="pBrand"
+            >
+              <span
+                className="spanTitle"
+              >
+                Brand: 
+              </span>
+              <span
+                className="spanSubtitle"
+              >
+                Levis
+              </span>
+            </div>
+            <div
+              className="pSize"
+            >
+              <span
+                className="spanTitle"
+              >
+                Size: 
+              </span>
+              <span
+                className="spanSubtitle"
+              >
+                <select
+                  onChange={[Function]}
+                  value="L"
+                >
+                  <option
+                    value="L"
+                  >
+                    L
+                  </option>
+                  <option
+                    value="M"
+                  >
+                    M
+                  </option>
+                  <option
+                    value="S"
+                  >
+                    S
+                  </option>
+                  <option
+                    value="XL"
+                  >
+                    XL
+                  </option>
+                </select>
+              </span>
+            </div>
+            <div
+              className="pSource"
+            >
+              <span
+                className="spanTitle"
+              >
+                Source: 
+              </span>
+              <select
+                onChange={[Function]}
+              >
+                <option>
+                  ---Select Source---
+                </option>
+                <option
+                  value="Suvidha Karnal"
+                >
+                  Suvidha Karnal
+                </option>
+                <option
+                  value="Suvidha Panipat"
+                >
+                  Suvidha Panipat
+                </option>
+                <option
+                  value="Suvidha Yamuna Nagar"
+                >
+                  Suvidha Yamuna Nagar
+                </option>
+              </select>
+            </div>
+            <div
+              className="pPrice"
+            >
+              <span
+                className="spanTitle"
+              >
+                Price: 
+              </span>
+              <span
+                className="spanSubtitle"
+              >
+                999
+              </span>
+            </div>
+            <hr
+              className="divider"
+            />
+            <div>
+              <button
+                className="addToCart"
+                onClick={[Function]}
+              >
+                 Add to Cart
+              </button>
+              <Route
+                render={[Function]}
+              />
+            </div>
+          </div>,
+        ],
+        "className": "mainContainer",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              undefined,
+              <img
+                height="500"
+                src={
+                  Array [
+                    "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1b12cc01/images/hi-res/169600113/169600113_01_Front.jpg?sw=600&sh=600",
+                  ]
+                }
+                width="300"
+              />,
+            ],
+            "className": "leftWrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "height": "500",
+                "src": Array [
+                  "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1b12cc01/images/hi-res/169600113/169600113_01_Front.jpg?sw=600&sh=600",
+                ],
+                "width": "300",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label
+                className="pTitle"
+              >
+                LEVI'S® BATWING LOGO TEE
+              </label>,
+              <hr
+                className="divider"
+              />,
+              <div
+                className="pId"
+              >
+                <span
+                  className="spanTitle"
+                >
+                  ID: 
+                </span>
+                <span
+                  className="spanSubtitle"
+                >
+                  3302
+                   
+                </span>
+              </div>,
+              <div
+                className="pSex"
+              >
+                <span
+                  className="spanTitle"
+                >
+                  Sex: 
+                </span>
+                <span
+                  className="spanSubtitle"
+                >
+                  Men
+                   
+                </span>
+              </div>,
+              <div
+                className="pBrand"
+              >
+                <span
+                  className="spanTitle"
+                >
+                  Brand: 
+                </span>
+                <span
+                  className="spanSubtitle"
+                >
+                  Levis
+                </span>
+              </div>,
+              <div
+                className="pSize"
+              >
+                <span
+                  className="spanTitle"
+                >
+                  Size: 
+                </span>
+                <span
+                  className="spanSubtitle"
+                >
+                  <select
+                    onChange={[Function]}
+                    value="L"
+                  >
+                    <option
+                      value="L"
+                    >
+                      L
+                    </option>
+                    <option
+                      value="M"
+                    >
+                      M
+                    </option>
+                    <option
+                      value="S"
+                    >
+                      S
+                    </option>
+                    <option
+                      value="XL"
+                    >
+                      XL
+                    </option>
+                  </select>
+                </span>
+              </div>,
+              <div
+                className="pSource"
+              >
+                <span
+                  className="spanTitle"
+                >
+                  Source: 
+                </span>
+                <select
+                  onChange={[Function]}
+                >
+                  <option>
+                    ---Select Source---
+                  </option>
+                  <option
+                    value="Suvidha Karnal"
+                  >
+                    Suvidha Karnal
+                  </option>
+                  <option
+                    value="Suvidha Panipat"
+                  >
+                    Suvidha Panipat
+                  </option>
+                  <option
+                    value="Suvidha Yamuna Nagar"
+                  >
+                    Suvidha Yamuna Nagar
+                  </option>
+                </select>
+              </div>,
+              <div
+                className="pPrice"
+              >
+                <span
+                  className="spanTitle"
+                >
+                  Price: 
+                </span>
+                <span
+                  className="spanSubtitle"
+                >
+                  999
+                </span>
+              </div>,
+              <hr
+                className="divider"
+              />,
+              <div>
+                <button
+                  className="addToCart"
+                  onClick={[Function]}
+                >
+                   Add to Cart
+                </button>
+                <Route
+                  render={[Function]}
+                />
+              </div>,
+            ],
+            "className": "rightWrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "LEVI'S® BATWING LOGO TEE",
+                "className": "pTitle",
+              },
+              "ref": null,
+              "rendered": "LEVI'S® BATWING LOGO TEE",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "divider",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "hr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="spanTitle"
+                  >
+                    ID: 
+                  </span>,
+                  <span
+                    className="spanSubtitle"
+                  >
+                    3302
+                     
+                  </span>,
+                ],
+                "className": "pId",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "ID: ",
+                    "className": "spanTitle",
+                  },
+                  "ref": null,
+                  "rendered": "ID: ",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "3302",
+                      " ",
+                    ],
+                    "className": "spanSubtitle",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "3302",
+                    " ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="spanTitle"
+                  >
+                    Sex: 
+                  </span>,
+                  <span
+                    className="spanSubtitle"
+                  >
+                    Men
+                     
+                  </span>,
+                ],
+                "className": "pSex",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sex: ",
+                    "className": "spanTitle",
+                  },
+                  "ref": null,
+                  "rendered": "Sex: ",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Men",
+                      " ",
+                    ],
+                    "className": "spanSubtitle",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Men",
+                    " ",
+                  ],
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="spanTitle"
+                  >
+                    Brand: 
+                  </span>,
+                  <span
+                    className="spanSubtitle"
+                  >
+                    Levis
+                  </span>,
+                ],
+                "className": "pBrand",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Brand: ",
+                    "className": "spanTitle",
+                  },
+                  "ref": null,
+                  "rendered": "Brand: ",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Levis",
+                    "className": "spanSubtitle",
+                  },
+                  "ref": null,
+                  "rendered": "Levis",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="spanTitle"
+                  >
+                    Size: 
+                  </span>,
+                  <span
+                    className="spanSubtitle"
+                  >
+                    <select
+                      onChange={[Function]}
+                      value="L"
+                    >
+                      <option
+                        value="L"
+                      >
+                        L
+                      </option>
+                      <option
+                        value="M"
+                      >
+                        M
+                      </option>
+                      <option
+                        value="S"
+                      >
+                        S
+                      </option>
+                      <option
+                        value="XL"
+                      >
+                        XL
+                      </option>
+                    </select>
+                  </span>,
+                ],
+                "className": "pSize",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Size: ",
+                    "className": "spanTitle",
+                  },
+                  "ref": null,
+                  "rendered": "Size: ",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <select
+                      onChange={[Function]}
+                      value="L"
+                    >
+                      <option
+                        value="L"
+                      >
+                        L
+                      </option>
+                      <option
+                        value="M"
+                      >
+                        M
+                      </option>
+                      <option
+                        value="S"
+                      >
+                        S
+                      </option>
+                      <option
+                        value="XL"
+                      >
+                        XL
+                      </option>
+                    </select>,
+                    "className": "spanSubtitle",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <option
+                          value="L"
+                        >
+                          L
+                        </option>,
+                        <option
+                          value="M"
+                        >
+                          M
+                        </option>,
+                        <option
+                          value="S"
+                        >
+                          S
+                        </option>,
+                        <option
+                          value="XL"
+                        >
+                          XL
+                        </option>,
+                      ],
+                      "onChange": [Function],
+                      "value": "L",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": "L",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "L",
+                          "value": "L",
+                        },
+                        "ref": null,
+                        "rendered": "L",
+                        "type": "option",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "M",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "M",
+                          "value": "M",
+                        },
+                        "ref": null,
+                        "rendered": "M",
+                        "type": "option",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "S",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "S",
+                          "value": "S",
+                        },
+                        "ref": null,
+                        "rendered": "S",
+                        "type": "option",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "XL",
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "XL",
+                          "value": "XL",
+                        },
+                        "ref": null,
+                        "rendered": "XL",
+                        "type": "option",
+                      },
+                    ],
+                    "type": "select",
+                  },
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="spanTitle"
+                  >
+                    Source: 
+                  </span>,
+                  <select
+                    onChange={[Function]}
+                  >
+                    <option>
+                      ---Select Source---
+                    </option>
+                    <option
+                      value="Suvidha Karnal"
+                    >
+                      Suvidha Karnal
+                    </option>
+                    <option
+                      value="Suvidha Panipat"
+                    >
+                      Suvidha Panipat
+                    </option>
+                    <option
+                      value="Suvidha Yamuna Nagar"
+                    >
+                      Suvidha Yamuna Nagar
+                    </option>
+                  </select>,
+                ],
+                "className": "pSource",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Source: ",
+                    "className": "spanTitle",
+                  },
+                  "ref": null,
+                  "rendered": "Source: ",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <option>
+                        ---Select Source---
+                      </option>,
+                      Array [
+                        <option
+                          value="Suvidha Karnal"
+                        >
+                          Suvidha Karnal
+                        </option>,
+                        <option
+                          value="Suvidha Panipat"
+                        >
+                          Suvidha Panipat
+                        </option>,
+                        <option
+                          value="Suvidha Yamuna Nagar"
+                        >
+                          Suvidha Yamuna Nagar
+                        </option>,
+                      ],
+                    ],
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "---Select Source---",
+                      },
+                      "ref": null,
+                      "rendered": "---Select Source---",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "Suvidha Karnal",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Suvidha Karnal",
+                        "value": "Suvidha Karnal",
+                      },
+                      "ref": null,
+                      "rendered": "Suvidha Karnal",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "Suvidha Panipat",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Suvidha Panipat",
+                        "value": "Suvidha Panipat",
+                      },
+                      "ref": null,
+                      "rendered": "Suvidha Panipat",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "Suvidha Yamuna Nagar",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Suvidha Yamuna Nagar",
+                        "value": "Suvidha Yamuna Nagar",
+                      },
+                      "ref": null,
+                      "rendered": "Suvidha Yamuna Nagar",
+                      "type": "option",
+                    },
+                  ],
+                  "type": "select",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="spanTitle"
+                  >
+                    Price: 
+                  </span>,
+                  <span
+                    className="spanSubtitle"
+                  >
+                    999
+                  </span>,
+                ],
+                "className": "pPrice",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Price: ",
+                    "className": "spanTitle",
+                  },
+                  "ref": null,
+                  "rendered": "Price: ",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "999",
+                    "className": "spanSubtitle",
+                  },
+                  "ref": null,
+                  "rendered": "999",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "divider",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "hr",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <button
+                    className="addToCart"
+                    onClick={[Function]}
+                  >
+                     Add to Cart
+                  </button>,
+                  <Route
+                    render={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " Add to Cart",
+                    "className": "addToCart",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": " Add to Cart",
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "render": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

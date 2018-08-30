@@ -1,0 +1,920 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetails  should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Cart />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="cartTitle"
+        >
+          <span>
+            My Cart
+          </span>
+        </div>,
+        <div
+          className="cartContainer"
+        >
+          <div
+            className="pImage"
+          >
+            <img
+              height="200"
+              src={null}
+            />
+          </div>
+          <div
+            className="productInfo"
+          >
+            <div
+              className="infoProduct"
+            >
+              <label />
+              <label />
+              <label />
+              <label>
+                Quantity: 
+                <input
+                  max="5"
+                  min="1"
+                  onChange={[Function]}
+                  type="number"
+                  value={1}
+                />
+                 
+              </label>
+              <label>
+                Rs.
+                NaN
+              </label>
+            </div>
+            <hr
+              className="divider"
+            />
+            <div
+              className="cTALinks"
+            >
+              <Route
+                render={[Function]}
+              />
+              <Route
+                render={[Function]}
+              />
+              <button
+                className="cTAButtons"
+                onClick={[Function]}
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <span>
+            My Cart
+          </span>,
+          "className": "cartTitle",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "My Cart",
+          },
+          "ref": null,
+          "rendered": "My Cart",
+          "type": "span",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="pImage"
+            >
+              <img
+                height="200"
+                src={null}
+              />
+            </div>,
+            <div
+              className="productInfo"
+            >
+              <div
+                className="infoProduct"
+              >
+                <label />
+                <label />
+                <label />
+                <label>
+                  Quantity: 
+                  <input
+                    max="5"
+                    min="1"
+                    onChange={[Function]}
+                    type="number"
+                    value={1}
+                  />
+                   
+                </label>
+                <label>
+                  Rs.
+                  NaN
+                </label>
+              </div>
+              <hr
+                className="divider"
+              />
+              <div
+                className="cTALinks"
+              >
+                <Route
+                  render={[Function]}
+                />
+                <Route
+                  render={[Function]}
+                />
+                <button
+                  className="cTAButtons"
+                  onClick={[Function]}
+                >
+                  Submit
+                </button>
+              </div>
+            </div>,
+          ],
+          "className": "cartContainer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                height="200"
+                src={null}
+              />,
+              "className": "pImage",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "height": "200",
+                "src": null,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="infoProduct"
+                >
+                  <label />
+                  <label />
+                  <label />
+                  <label>
+                    Quantity: 
+                    <input
+                      max="5"
+                      min="1"
+                      onChange={[Function]}
+                      type="number"
+                      value={1}
+                    />
+                     
+                  </label>
+                  <label>
+                    Rs.
+                    NaN
+                  </label>
+                </div>,
+                <hr
+                  className="divider"
+                />,
+                <div
+                  className="cTALinks"
+                >
+                  <Route
+                    render={[Function]}
+                  />
+                  <Route
+                    render={[Function]}
+                  />
+                  <button
+                    className="cTAButtons"
+                    onClick={[Function]}
+                  >
+                    Submit
+                  </button>
+                </div>,
+              ],
+              "className": "productInfo",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label />,
+                    <label />,
+                    <label />,
+                    <label>
+                      Quantity: 
+                      <input
+                        max="5"
+                        min="1"
+                        onChange={[Function]}
+                        type="number"
+                        value={1}
+                      />
+                       
+                    </label>,
+                    <label>
+                      Rs.
+                      NaN
+                    </label>,
+                  ],
+                  "className": "infoProduct",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Quantity: ",
+                        <input
+                          max="5"
+                          min="1"
+                          onChange={[Function]}
+                          type="number"
+                          value={1}
+                        />,
+                        " ",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Quantity: ",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "max": "5",
+                          "min": "1",
+                          "onChange": [Function],
+                          "type": "number",
+                          "value": 1,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      " ",
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Rs.",
+                        NaN,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Rs.",
+                      NaN,
+                    ],
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "divider",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "hr",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <Route
+                      render={[Function]}
+                    />,
+                    <Route
+                      render={[Function]}
+                    />,
+                    <button
+                      className="cTAButtons"
+                      onClick={[Function]}
+                    >
+                      Submit
+                    </button>,
+                  ],
+                  "className": "cTALinks",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "render": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Submit",
+                      "className": "cTAButtons",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Submit",
+                    "type": "button",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="cartTitle"
+          >
+            <span>
+              My Cart
+            </span>
+          </div>,
+          <div
+            className="cartContainer"
+          >
+            <div
+              className="pImage"
+            >
+              <img
+                height="200"
+                src={null}
+              />
+            </div>
+            <div
+              className="productInfo"
+            >
+              <div
+                className="infoProduct"
+              >
+                <label />
+                <label />
+                <label />
+                <label>
+                  Quantity: 
+                  <input
+                    max="5"
+                    min="1"
+                    onChange={[Function]}
+                    type="number"
+                    value={1}
+                  />
+                   
+                </label>
+                <label>
+                  Rs.
+                  NaN
+                </label>
+              </div>
+              <hr
+                className="divider"
+              />
+              <div
+                className="cTALinks"
+              >
+                <Route
+                  render={[Function]}
+                />
+                <Route
+                  render={[Function]}
+                />
+                <button
+                  className="cTAButtons"
+                  onClick={[Function]}
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span>
+              My Cart
+            </span>,
+            "className": "cartTitle",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "My Cart",
+            },
+            "ref": null,
+            "rendered": "My Cart",
+            "type": "span",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="pImage"
+              >
+                <img
+                  height="200"
+                  src={null}
+                />
+              </div>,
+              <div
+                className="productInfo"
+              >
+                <div
+                  className="infoProduct"
+                >
+                  <label />
+                  <label />
+                  <label />
+                  <label>
+                    Quantity: 
+                    <input
+                      max="5"
+                      min="1"
+                      onChange={[Function]}
+                      type="number"
+                      value={1}
+                    />
+                     
+                  </label>
+                  <label>
+                    Rs.
+                    NaN
+                  </label>
+                </div>
+                <hr
+                  className="divider"
+                />
+                <div
+                  className="cTALinks"
+                >
+                  <Route
+                    render={[Function]}
+                  />
+                  <Route
+                    render={[Function]}
+                  />
+                  <button
+                    className="cTAButtons"
+                    onClick={[Function]}
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>,
+            ],
+            "className": "cartContainer",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  height="200"
+                  src={null}
+                />,
+                "className": "pImage",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "height": "200",
+                  "src": null,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="infoProduct"
+                  >
+                    <label />
+                    <label />
+                    <label />
+                    <label>
+                      Quantity: 
+                      <input
+                        max="5"
+                        min="1"
+                        onChange={[Function]}
+                        type="number"
+                        value={1}
+                      />
+                       
+                    </label>
+                    <label>
+                      Rs.
+                      NaN
+                    </label>
+                  </div>,
+                  <hr
+                    className="divider"
+                  />,
+                  <div
+                    className="cTALinks"
+                  >
+                    <Route
+                      render={[Function]}
+                    />
+                    <Route
+                      render={[Function]}
+                    />
+                    <button
+                      className="cTAButtons"
+                      onClick={[Function]}
+                    >
+                      Submit
+                    </button>
+                  </div>,
+                ],
+                "className": "productInfo",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <label />,
+                      <label />,
+                      <label />,
+                      <label>
+                        Quantity: 
+                        <input
+                          max="5"
+                          min="1"
+                          onChange={[Function]}
+                          type="number"
+                          value={1}
+                        />
+                         
+                      </label>,
+                      <label>
+                        Rs.
+                        NaN
+                      </label>,
+                    ],
+                    "className": "infoProduct",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Quantity: ",
+                          <input
+                            max="5"
+                            min="1"
+                            onChange={[Function]}
+                            type="number"
+                            value={1}
+                          />,
+                          " ",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Quantity: ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "max": "5",
+                            "min": "1",
+                            "onChange": [Function],
+                            "type": "number",
+                            "value": 1,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        " ",
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Rs.",
+                          NaN,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Rs.",
+                        NaN,
+                      ],
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "divider",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "hr",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <Route
+                        render={[Function]}
+                      />,
+                      <Route
+                        render={[Function]}
+                      />,
+                      <button
+                        className="cTAButtons"
+                        onClick={[Function]}
+                      >
+                        Submit
+                      </button>,
+                    ],
+                    "className": "cTALinks",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "render": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "render": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Submit",
+                        "className": "cTAButtons",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Submit",
+                      "type": "button",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
