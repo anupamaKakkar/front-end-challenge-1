@@ -49,7 +49,7 @@ export default class ProductDetails extends React.Component<ProductDetailsProps,
             source: event.currentTarget.value
         });
         this.forceUpdate();
-        this.getPrice(event.currentTarget,value);
+        this.getPrice(event.currentTarget.value);
     }
 
     getProduct(product: any) {
